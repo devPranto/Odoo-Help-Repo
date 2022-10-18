@@ -1,0 +1,1260 @@
+J:\Coding\odoo\venv\Scripts\python.exe J:/Coding/odoo/package_installer.py 
+Babel==2.9.1;
+chardet==3.0.4;
+cryptography==2.6.1;
+decorator==4.4.2;
+docutils==0.16;
+ebaysdk==2.1.5;
+freezegun==0.3.15;
+gevent==21.8.0 ;
+greenlet==1.1.2 ;
+idna==2.8;
+Jinja2==2.11.3 ;
+libsass==0.18.0;
+lxml==4.6.5 ;
+MarkupSafe==1.1.0;
+num2words==0.5.6;
+ofxparse==0.21;
+passlib==1.7.3;
+Pillow==9.0.1;
+polib==1.1.0;
+psutil==5.6.7;
+psycopg2==2.8.6;
+pydot==1.4.1;
+pyopenssl==19.0.0;
+PyPDF2==1.26.0;
+pypiwin32 ;
+pyserial==3.4;
+python-dateutil==2.7.3;
+python-ldap==3.4.0 ;
+python-stdnum==1.13;
+pytz==2019.3;
+pyusb==1.0.2;
+qrcode==6.1;
+reportlab==3.5.59;
+requests==2.25.1 ;
+Bullseye = 2.25.1;
+urllib3==1.26.5;
+vobject==0.9.6.1;
+Werkzeug==2.0.2;
+xlrd==1.2.0;
+XlsxWriter==1.1.2;
+xlwt==1.3.*;
+zeep==3.4.0;
+installing this package = Babel==2.9.1
+Requirement already satisfied: Babel==2.9.1 in j:\coding\odoo\venv\lib\site-packages (2.9.1)
+Requirement already satisfied: pytz>=2015.7 in j:\coding\odoo\venv\lib\site-packages (from Babel==2.9.1) (2019.3)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = chardet==3.0.4
+Requirement already satisfied: chardet==3.0.4 in j:\coding\odoo\venv\lib\site-packages (3.0.4)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = cryptography==2.6.1
+Collecting cryptography==2.6.1
+  Using cached cryptography-2.6.1.tar.gz (491 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: cffi!=1.11.3,>=1.8 in j:\coding\odoo\venv\lib\site-packages (from cryptography==2.6.1) (1.15.1)
+Requirement already satisfied: six>=1.4.1 in j:\coding\odoo\venv\lib\site-packages (from cryptography==2.6.1) (1.16.0)
+Collecting asn1crypto>=0.21.0
+  Using cached asn1crypto-1.5.1-py2.py3-none-any.whl (105 kB)
+Requirement already satisfied: pycparser in j:\coding\odoo\venv\lib\site-packages (from cffi!=1.11.3,>=1.8->cryptography==2.6.1) (2.21)
+Building wheels for collected packages: cryptography
+  Building wheel for cryptography (pyproject.toml): started
+  ERROR: Command errored out with exit status 1:
+   command: 'J:\Coding\odoo\venv\Scripts\python.exe' 'J:\Coding\odoo\venv\lib\site-packages\pip\_vendor\pep517\in_process\_in_process.py' build_wheel 'C:\Users\Dev\AppData\Local\Temp\tmp0dnyuken'
+       cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-f8q6bwvl\cryptography_641c5ccf70bd488b9d02f3b149020603
+  Complete output (22 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  running egg_info
+  writing src\cryptography.egg-info\PKG-INFO
+  writing dependency_links to src\cryptography.egg-info\dependency_links.txt
+  writing requirements to src\cryptography.egg-info\requires.txt
+  writing top-level names to src\cryptography.egg-info\top_level.txt
+  reading manifest file 'src\cryptography.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'docs\_build'
+  warning: no previously-included files matching '*' found under directory 'vectors'
+  adding license file 'LICENSE'
+  adding license file 'LICENSE.APACHE'
+  adding license file 'LICENSE.BSD'
+  adding license file 'AUTHORS.rst'
+  running build_ext
+  generating cffi module 'build\\temp.win-amd64-cpython-310\\Release\\_padding.c'
+  generating cffi module 'build\\temp.win-amd64-cpython-310\\Release\\_constant_time.c'
+  generating cffi module 'build\\temp.win-amd64-cpython-310\\Release\\_openssl.c'
+  building '_openssl' extension
+  error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for cryptography
+ERROR: Could not build wheels for cryptography, which is required to install pyproject.toml-based projects
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+  Building wheel for cryptography (pyproject.toml): finished with status 'error'
+Failed to build cryptography
+couldn't install cryptography==2.6.1
+installing this package = decorator==4.4.2
+Requirement already satisfied: decorator==4.4.2 in j:\coding\odoo\venv\lib\site-packages (4.4.2)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = docutils==0.16
+Requirement already satisfied: docutils==0.16 in j:\coding\odoo\venv\lib\site-packages (0.16)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = ebaysdk==2.1.5
+Requirement already satisfied: ebaysdk==2.1.5 in j:\coding\odoo\venv\lib\site-packages (2.1.5)
+Requirement already satisfied: lxml in j:\coding\odoo\venv\lib\site-packages (from ebaysdk==2.1.5) (4.6.5)
+Requirement already satisfied: requests in j:\coding\odoo\venv\lib\site-packages (from ebaysdk==2.1.5) (2.25.1)
+Requirement already satisfied: chardet<5,>=3.0.2 in j:\coding\odoo\venv\lib\site-packages (from requests->ebaysdk==2.1.5) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in j:\coding\odoo\venv\lib\site-packages (from requests->ebaysdk==2.1.5) (2022.9.24)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in j:\coding\odoo\venv\lib\site-packages (from requests->ebaysdk==2.1.5) (1.26.5)
+Requirement already satisfied: idna<3,>=2.5 in j:\coding\odoo\venv\lib\site-packages (from requests->ebaysdk==2.1.5) (2.8)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = freezegun==0.3.15
+Requirement already satisfied: freezegun==0.3.15 in j:\coding\odoo\venv\lib\site-packages (0.3.15)
+Requirement already satisfied: six in j:\coding\odoo\venv\lib\site-packages (from freezegun==0.3.15) (1.16.0)
+Requirement already satisfied: python-dateutil!=2.0,>=1.0 in j:\coding\odoo\venv\lib\site-packages (from freezegun==0.3.15) (2.7.3)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = gevent==21.8.0
+Requirement already satisfied: gevent==21.8.0 in j:\coding\odoo\venv\lib\site-packages (21.8.0)
+Requirement already satisfied: setuptools in j:\coding\odoo\venv\lib\site-packages (from gevent==21.8.0) (60.2.0)
+Requirement already satisfied: zope.event in j:\coding\odoo\venv\lib\site-packages (from gevent==21.8.0) (4.5.0)
+Requirement already satisfied: zope.interface in j:\coding\odoo\venv\lib\site-packages (from gevent==21.8.0) (5.5.0)
+Requirement already satisfied: greenlet<2.0,>=1.1.0 in j:\coding\odoo\venv\lib\site-packages (from gevent==21.8.0) (1.1.2)
+Requirement already satisfied: cffi>=1.12.2 in j:\coding\odoo\venv\lib\site-packages (from gevent==21.8.0) (1.15.1)
+Requirement already satisfied: pycparser in j:\coding\odoo\venv\lib\site-packages (from cffi>=1.12.2->gevent==21.8.0) (2.21)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = greenlet==1.1.2
+Requirement already satisfied: greenlet==1.1.2 in j:\coding\odoo\venv\lib\site-packages (1.1.2)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = idna==2.8
+Requirement already satisfied: idna==2.8 in j:\coding\odoo\venv\lib\site-packages (2.8)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = Jinja2==2.11.3
+Requirement already satisfied: Jinja2==2.11.3 in j:\coding\odoo\venv\lib\site-packages (2.11.3)
+Requirement already satisfied: MarkupSafe>=0.23 in j:\coding\odoo\venv\lib\site-packages (from Jinja2==2.11.3) (1.1.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = libsass==0.18.0
+Collecting libsass==0.18.0
+  Using cached libsass-0.18.0.tar.gz (310 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: six in j:\coding\odoo\venv\lib\site-packages (from libsass==0.18.0) (1.16.0)
+Building wheels for collected packages: libsass
+  Building wheel for libsass (setup.py): started
+  ERROR: Command errored out with exit status 1:
+   command: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-ekhoyh93\\libsass_f949a145b4b4460aacaa5322ac5d6440\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-ekhoyh93\\libsass_f949a145b4b4460aacaa5322ac5d6440\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\Dev\AppData\Local\Temp\pip-wheel-46awlz_g'
+       cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-ekhoyh93\libsass_f949a145b4b4460aacaa5322ac5d6440\
+  Complete output (18 lines):
+  You probably need Visual Studio 2015 (14.0) or higher
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.10
+  copying pysassc.py -> build\lib.win-amd64-3.10
+  copying sass.py -> build\lib.win-amd64-3.10
+  copying sassc.py -> build\lib.win-amd64-3.10
+  copying sasstests.py -> build\lib.win-amd64-3.10
+  creating build\lib.win-amd64-3.10\sassutils
+  copying sassutils\builder.py -> build\lib.win-amd64-3.10\sassutils
+  copying sassutils\distutils.py -> build\lib.win-amd64-3.10\sassutils
+  copying sassutils\wsgi.py -> build\lib.win-amd64-3.10\sassutils
+  copying sassutils\_compat.py -> build\lib.win-amd64-3.10\sassutils
+  copying sassutils\__init__.py -> build\lib.win-amd64-3.10\sassutils
+  running build_ext
+  error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for libsass
+  Building wheel for libsass (setup.py): finished with status 'error'
+  Running setup.py clean for libsass
+Failed to build libsass
+Installing collected packages: libsass
+    Running setup.py install for libsass: started
+    Running setup.py install for libsass: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-ekhoyh93\\libsass_f949a145b4b4460aacaa5322ac5d6440\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-ekhoyh93\\libsass_f949a145b4b4460aacaa5322ac5d6440\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Dev\AppData\Local\Temp\pip-record-mw_45f2a\install-record.txt' --single-version-externally-managed --compile --install-headers 'J:\Coding\odoo\venv\include\site\python3.10\libsass'
+         cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-ekhoyh93\libsass_f949a145b4b4460aacaa5322ac5d6440\
+    Complete output (20 lines):
+    You probably need Visual Studio 2015 (14.0) or higher
+    running install
+    J:\Coding\odoo\venv\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+      warnings.warn(
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.10
+    copying pysassc.py -> build\lib.win-amd64-3.10
+    copying sass.py -> build\lib.win-amd64-3.10
+    copying sassc.py -> build\lib.win-amd64-3.10
+    copying sasstests.py -> build\lib.win-amd64-3.10
+    creating build\lib.win-amd64-3.10\sassutils
+    copying sassutils\builder.py -> build\lib.win-amd64-3.10\sassutils
+    copying sassutils\distutils.py -> build\lib.win-amd64-3.10\sassutils
+    copying sassutils\wsgi.py -> build\lib.win-amd64-3.10\sassutils
+    copying sassutils\_compat.py -> build\lib.win-amd64-3.10\sassutils
+    copying sassutils\__init__.py -> build\lib.win-amd64-3.10\sassutils
+    running build_ext
+    error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-ekhoyh93\\libsass_f949a145b4b4460aacaa5322ac5d6440\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-ekhoyh93\\libsass_f949a145b4b4460aacaa5322ac5d6440\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Dev\AppData\Local\Temp\pip-record-mw_45f2a\install-record.txt' --single-version-externally-managed --compile --install-headers 'J:\Coding\odoo\venv\include\site\python3.10\libsass' Check the logs for full command output.
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+couldn't install libsass==0.18.0
+installing this package = lxml==4.6.5
+Requirement already satisfied: lxml==4.6.5 in j:\coding\odoo\venv\lib\site-packages (4.6.5)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = MarkupSafe==1.1.0
+Requirement already satisfied: MarkupSafe==1.1.0 in j:\coding\odoo\venv\lib\site-packages (1.1.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = num2words==0.5.6
+Requirement already satisfied: num2words==0.5.6 in j:\coding\odoo\venv\lib\site-packages (0.5.6)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = ofxparse==0.21
+Requirement already satisfied: ofxparse==0.21 in j:\coding\odoo\venv\lib\site-packages (0.21)
+Requirement already satisfied: six in j:\coding\odoo\venv\lib\site-packages (from ofxparse==0.21) (1.16.0)
+Requirement already satisfied: beautifulsoup4 in j:\coding\odoo\venv\lib\site-packages (from ofxparse==0.21) (4.11.1)
+Requirement already satisfied: lxml in j:\coding\odoo\venv\lib\site-packages (from ofxparse==0.21) (4.6.5)
+Requirement already satisfied: soupsieve>1.2 in j:\coding\odoo\venv\lib\site-packages (from beautifulsoup4->ofxparse==0.21) (2.3.2.post1)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = passlib==1.7.3
+Requirement already satisfied: passlib==1.7.3 in j:\coding\odoo\venv\lib\site-packages (1.7.3)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = Pillow==9.0.1
+Requirement already satisfied: Pillow==9.0.1 in j:\coding\odoo\venv\lib\site-packages (9.0.1)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = polib==1.1.0
+Requirement already satisfied: polib==1.1.0 in j:\coding\odoo\venv\lib\site-packages (1.1.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = psutil==5.6.7
+Collecting psutil==5.6.7
+  Using cached psutil-5.6.7.tar.gz (448 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: psutil
+  Building wheel for psutil (setup.py): started
+  ERROR: Command errored out with exit status 1:
+   command: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-hl9ykda0\\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-hl9ykda0\\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\Dev\AppData\Local\Temp\pip-wheel-tvt9w9p2'
+       cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-hl9ykda0\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\
+  Complete output (84 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.10
+  creating build\lib.win-amd64-3.10\psutil
+  copying psutil\_common.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_compat.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_psaix.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_psbsd.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_pslinux.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_psosx.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_psposix.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_pssunos.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\_pswindows.py -> build\lib.win-amd64-3.10\psutil
+  copying psutil\__init__.py -> build\lib.win-amd64-3.10\psutil
+  creating build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\runner.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_aix.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_bsd.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_connections.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_contracts.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_linux.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_memory_leaks.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_misc.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_osx.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_posix.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_process.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_sunos.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_system.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_unicode.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\test_windows.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\__init__.py -> build\lib.win-amd64-3.10\psutil\tests
+  copying psutil\tests\__main__.py -> build\lib.win-amd64-3.10\psutil\tests
+  running build_ext
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "C:\Users\Dev\AppData\Local\Temp\pip-install-hl9ykda0\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\setup.py", line 353, in <module>
+      main()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-install-hl9ykda0\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\setup.py", line 349, in main
+      setup(**kwargs)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\__init__.py", line 155, in setup
+      return distutils.core.setup(**attrs)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\core.py", line 148, in setup
+      return run_commands(dist)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\core.py", line 163, in run_commands
+      dist.run_commands()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 967, in run_commands
+      self.run_command(cmd)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+      cmd_obj.run()
+    File "J:\Coding\odoo\venv\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+      self.run_command('build')
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+      cmd_obj.run()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+      cmd_obj.run()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\build_ext.py", line 79, in run
+      _build_ext.run(self)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 339, in run
+      self.build_extensions()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 448, in build_extensions
+      self._build_extensions_serial()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 473, in _build_extensions_serial
+      self.build_extension(ext)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\build_ext.py", line 202, in build_extension
+      _build_ext.build_extension(self, ext)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 528, in build_extension
+      objects = self.compiler.compile(sources,
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 327, in compile
+      self.initialize()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 224, in initialize
+      vc_env = _get_vc_env(plat_spec)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\msvc.py", line 316, in msvc14_get_vc_env
+      return _msvc14_get_vc_env(plat_spec)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\msvc.py", line 270, in _msvc14_get_vc_env
+      raise distutils.errors.DistutilsPlatformError(
+  setuptools._distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for psutil
+  Building wheel for psutil (setup.py): finished with status 'error'
+  Running setup.py clean for psutil
+Failed to build psutil
+Installing collected packages: psutil
+    Running setup.py install for psutil: started
+    ERROR: Command errored out with exit status 1:
+     command: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-hl9ykda0\\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-hl9ykda0\\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Dev\AppData\Local\Temp\pip-record-d4v_ctrr\install-record.txt' --single-version-externally-managed --compile --install-headers 'J:\Coding\odoo\venv\include\site\python3.10\psutil'
+         cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-hl9ykda0\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\
+    Complete output (38 lines):
+    running install
+    J:\Coding\odoo\venv\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+      warnings.warn(
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.10
+    creating build\lib.win-amd64-3.10\psutil
+    copying psutil\_common.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_compat.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_psaix.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_psbsd.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_pslinux.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_psosx.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_psposix.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_pssunos.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\_pswindows.py -> build\lib.win-amd64-3.10\psutil
+    copying psutil\__init__.py -> build\lib.win-amd64-3.10\psutil
+    creating build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\runner.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_aix.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_bsd.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_connections.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_contracts.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_linux.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_memory_leaks.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_misc.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_osx.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_posix.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_process.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_sunos.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_system.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_unicode.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\test_windows.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\__init__.py -> build\lib.win-amd64-3.10\psutil\tests
+    copying psutil\tests\__main__.py -> build\lib.win-amd64-3.10\psutil\tests
+    running build_ext
+    error: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-hl9ykda0\\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-hl9ykda0\\psutil_0fa9ab0f5a0c430e8d12636c0f1e141e\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Dev\AppData\Local\Temp\pip-record-d4v_ctrr\install-record.txt' --single-version-externally-managed --compile --install-headers 'J:\Coding\odoo\venv\include\site\python3.10\psutil' Check the logs for full command output.
+    Running setup.py install for psutil: finished with status 'error'
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+couldn't install psutil==5.6.7
+installing this package = psycopg2==2.8.6
+Collecting psycopg2==2.8.6
+  Using cached psycopg2-2.8.6.tar.gz (383 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'
+  ERROR: Command errored out with exit status 1:
+   command: 'J:\Coding\odoo\venv\Scripts\python.exe' -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-3eg0mpeg\\psycopg2_4786ba2a84e44b3da4e2ef1d5b7cf70c\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-3eg0mpeg\\psycopg2_4786ba2a84e44b3da4e2ef1d5b7cf70c\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base 'C:\Users\Dev\AppData\Local\Temp\pip-pip-egg-info-mwqz82je'
+       cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-3eg0mpeg\psycopg2_4786ba2a84e44b3da4e2ef1d5b7cf70c\
+  Complete output (20 lines):
+  running egg_info
+  creating C:\Users\Dev\AppData\Local\Temp\pip-pip-egg-info-mwqz82je\psycopg2.egg-info
+  writing manifest file 'C:\Users\Dev\AppData\Local\Temp\pip-pip-egg-info-mwqz82je\psycopg2.egg-info\SOURCES.txt'
+  
+  Error: pg_config executable not found.
+  
+  pg_config is required to build psycopg2 from source.  Please add the directory
+  containing pg_config to the $PATH or specify the full executable path with the
+  option:
+  
+      python setup.py build_ext --pg-config /path/to/pg_config build ...
+  
+  or with the pg_config option in 'setup.cfg'.
+  
+  If you prefer to avoid building psycopg2 from source, please install the PyPI
+  'psycopg2-binary' package instead.
+  
+  For further information please check the 'doc/src/install.rst' file (also at
+  <https://www.psycopg.org/docs/install.html>).
+  
+  ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/fd/ae/98cb7a0cbb1d748ee547b058b14604bd0e9bf285a8e0cc5d148f8a8a952e/psycopg2-2.8.6.tar.gz#sha256=fb23f6c71107c37fd667cb4ea363ddeb936b348bbd6449278eb92c189699f543 (from https://pypi.org/simple/psycopg2/) (requires-python:>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+ERROR: Could not find a version that satisfies the requirement psycopg2==2.8.6 (from versions: 2.0.10, 2.0.11, 2.0.12, 2.0.13, 2.0.14, 2.2.0, 2.2.1, 2.2.2, 2.3.0, 2.3.1, 2.3.2, 2.4, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.4.5, 2.4.6, 2.5, 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.6, 2.6.1, 2.6.2, 2.7, 2.7.1, 2.7.2, 2.7.3, 2.7.3.1, 2.7.3.2, 2.7.4, 2.7.5, 2.7.6, 2.7.6.1, 2.7.7, 2.8, 2.8.1, 2.8.2, 2.8.3, 2.8.4, 2.8.5, 2.8.6, 2.9, 2.9.1, 2.9.2, 2.9.3, 2.9.4)
+ERROR: No matching distribution found for psycopg2==2.8.6
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+couldn't install psycopg2==2.8.6
+installing this package = pydot==1.4.1
+Requirement already satisfied: pydot==1.4.1 in j:\coding\odoo\venv\lib\site-packages (1.4.1)
+Requirement already satisfied: pyparsing>=2.1.4 in j:\coding\odoo\venv\lib\site-packages (from pydot==1.4.1) (3.0.9)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = pyopenssl==19.0.0
+Requirement already satisfied: pyopenssl==19.0.0 in j:\coding\odoo\venv\lib\site-packages (19.0.0)
+Requirement already satisfied: cryptography>=2.3 in j:\coding\odoo\venv\lib\site-packages (from pyopenssl==19.0.0) (38.0.1)
+Requirement already satisfied: six>=1.5.2 in j:\coding\odoo\venv\lib\site-packages (from pyopenssl==19.0.0) (1.16.0)
+Requirement already satisfied: cffi>=1.12 in j:\coding\odoo\venv\lib\site-packages (from cryptography>=2.3->pyopenssl==19.0.0) (1.15.1)
+Requirement already satisfied: pycparser in j:\coding\odoo\venv\lib\site-packages (from cffi>=1.12->cryptography>=2.3->pyopenssl==19.0.0) (2.21)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = PyPDF2==1.26.0
+Requirement already satisfied: PyPDF2==1.26.0 in j:\coding\odoo\venv\lib\site-packages (1.26.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = pypiwin32
+Requirement already satisfied: pypiwin32 in j:\coding\odoo\venv\lib\site-packages (223)
+Requirement already satisfied: pywin32>=223 in j:\coding\odoo\venv\lib\site-packages (from pypiwin32) (304)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = pyserial==3.4
+Requirement already satisfied: pyserial==3.4 in j:\coding\odoo\venv\lib\site-packages (3.4)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = python-dateutil==2.7.3
+Requirement already satisfied: python-dateutil==2.7.3 in j:\coding\odoo\venv\lib\site-packages (2.7.3)
+Requirement already satisfied: six>=1.5 in j:\coding\odoo\venv\lib\site-packages (from python-dateutil==2.7.3) (1.16.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = python-ldap==3.4.0
+Collecting python-ldap==3.4.0
+  Using cached python-ldap-3.4.0.tar.gz (376 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pyasn1-modules>=0.1.5
+  Using cached pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting pyasn1>=0.3.7
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Building wheels for collected packages: python-ldap
+  Building wheel for python-ldap (pyproject.toml): started
+  ERROR: Command errored out with exit status 1:
+   command: 'J:\Coding\odoo\venv\Scripts\python.exe' 'J:\Coding\odoo\venv\lib\site-packages\pip\_vendor\pep517\in_process\_in_process.py' build_wheel 'C:\Users\Dev\AppData\Local\Temp\tmpaku9a66o'
+       cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-_524bx8u\python-ldap_5137419dfc2a47719161292bd8f63027
+  Complete output (107 lines):
+  C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\config\setupcfg.py:508: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+    warnings.warn(msg, warning_class)
+  running bdist_wheel
+  running build
+  running build_py
+  running egg_info
+  writing Lib\python_ldap.egg-info\PKG-INFO
+  writing dependency_links to Lib\python_ldap.egg-info\dependency_links.txt
+  writing requirements to Lib\python_ldap.egg-info\requires.txt
+  writing top-level names to Lib\python_ldap.egg-info\top_level.txt
+  reading manifest file 'Lib\python_ldap.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'Doc\.build'
+  adding license file 'LICENCE'
+  C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\command\build_py.py:202: SetuptoolsDeprecationWarning:     Installing 'slapdtest.certs' as data is deprecated, please list it in `packages`.
+      !!
+  
+  
+      ############################
+      # Package would be ignored #
+      ############################
+      Python recognizes 'slapdtest.certs' as an importable package,
+      but it is not listed in the `packages` configuration of setuptools.
+  
+      'slapdtest.certs' has been automatically added to the distribution only
+      because it may contain data files, but this behavior is likely to change
+      in future versions of setuptools (and therefore is considered deprecated).
+  
+      Please make sure that 'slapdtest.certs' is included as a package by using
+      the `packages` configuration field or the proper discovery methods
+      (for example by using `find_namespace_packages(...)`/`find_namespace:`
+      instead of `find_packages(...)`/`find:`).
+  
+      You can read more about "package discovery" and "data files" on setuptools
+      documentation page.
+  
+  
+  !!
+  
+    check.warn(importable)
+  running build_ext
+  building '_ldap' extension
+  Traceback (most recent call last):
+    File "J:\Coding\odoo\venv\lib\site-packages\pip\_vendor\pep517\in_process\_in_process.py", line 363, in <module>
+      main()
+    File "J:\Coding\odoo\venv\lib\site-packages\pip\_vendor\pep517\in_process\_in_process.py", line 345, in main
+      json_out['return_val'] = hook(**hook_input['kwargs'])
+    File "J:\Coding\odoo\venv\lib\site-packages\pip\_vendor\pep517\in_process\_in_process.py", line 261, in build_wheel
+      return _build_backend().build_wheel(wheel_directory, config_settings,
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\build_meta.py", line 412, in build_wheel
+      return self._build_with_temp_dir(['bdist_wheel'], '.whl',
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\build_meta.py", line 397, in _build_with_temp_dir
+      self.run_setup()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\build_meta.py", line 483, in run_setup
+      super(_BuildMetaLegacyBackend,
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\build_meta.py", line 335, in run_setup
+      exec(code, locals())
+    File "<string>", line 60, in <module>
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\__init__.py", line 87, in setup
+      return distutils.core.setup(**attrs)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\core.py", line 185, in setup
+      return run_commands(dist)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\core.py", line 201, in run_commands
+      dist.run_commands()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\dist.py", line 968, in run_commands
+      self.run_command(cmd)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\dist.py", line 1217, in run_command
+      super().run_command(command)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+      cmd_obj.run()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+      self.run_command('build')
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\dist.py", line 1217, in run_command
+      super().run_command(command)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+      cmd_obj.run()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\command\build.py", line 132, in run
+      self.run_command(cmd_name)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+      self.distribution.run_command(command)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\dist.py", line 1217, in run_command
+      super().run_command(command)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+      cmd_obj.run()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\command\build_ext.py", line 84, in run
+      _build_ext.run(self)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 346, in run
+      self.build_extensions()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 466, in build_extensions
+      self._build_extensions_serial()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 492, in _build_extensions_serial
+      self.build_extension(ext)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\command\build_ext.py", line 246, in build_extension
+      _build_ext.build_extension(self, ext)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 547, in build_extension
+      objects = self.compiler.compile(
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 344, in compile
+      self.initialize()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 253, in initialize
+      vc_env = _get_vc_env(plat_spec)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\msvc.py", line 214, in msvc14_get_vc_env
+      return _msvc14_get_vc_env(plat_spec)
+    File "C:\Users\Dev\AppData\Local\Temp\pip-build-env-zgl8agv1\overlay\Lib\site-packages\setuptools\msvc.py", line 168, in _msvc14_get_vc_env
+      raise distutils.errors.DistutilsPlatformError(
+  setuptools._distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for python-ldap
+ERROR: Could not build wheels for python-ldap, which is required to install pyproject.toml-based projects
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+  Building wheel for python-ldap (pyproject.toml): finished with status 'error'
+Failed to build python-ldap
+couldn't install python-ldap==3.4.0
+installing this package = python-stdnum==1.13
+Requirement already satisfied: python-stdnum==1.13 in j:\coding\odoo\venv\lib\site-packages (1.13)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = pytz==2019.3
+Requirement already satisfied: pytz==2019.3 in j:\coding\odoo\venv\lib\site-packages (2019.3)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = pyusb==1.0.2
+Requirement already satisfied: pyusb==1.0.2 in j:\coding\odoo\venv\lib\site-packages (1.0.2)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = qrcode==6.1
+Requirement already satisfied: qrcode==6.1 in j:\coding\odoo\venv\lib\site-packages (6.1)
+Requirement already satisfied: colorama in j:\coding\odoo\venv\lib\site-packages (from qrcode==6.1) (0.4.5)
+Requirement already satisfied: six in j:\coding\odoo\venv\lib\site-packages (from qrcode==6.1) (1.16.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = reportlab==3.5.59
+Collecting reportlab==3.5.59
+  Using cached reportlab-3.5.59.tar.gz (2.9 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: pillow>=4.0.0 in j:\coding\odoo\venv\lib\site-packages (from reportlab==3.5.59) (9.0.1)
+Building wheels for collected packages: reportlab
+  Building wheel for reportlab (setup.py): started
+  Building wheel for reportlab (setup.py): finished with status 'error'
+  Running setup.py clean for reportlab
+  ERROR: Command errored out with exit status 1:
+   command: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-mvy3wtrl\\reportlab_b8e5146290c44514bffc1728eb385d63\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-mvy3wtrl\\reportlab_b8e5146290c44514bffc1728eb385d63\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\Dev\AppData\Local\Temp\pip-wheel-m_svtpiv'
+       cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-mvy3wtrl\reportlab_b8e5146290c44514bffc1728eb385d63\
+  Complete output (272 lines):
+  ================================================
+  Attempting build of _rl_accel & pyHnj
+  extensions from 'src\\rl_addons\\rl_accel'
+  ================================================
+  ================================================
+  Attempting build of _renderPM
+  extensions from 'src\\rl_addons\\renderPM'
+  ================================================
+  will use package libart 2.3.21
+  # freetype lib 'c:\\ux\\xb33\\libs\\amd64\\freetype.lib' not found
+  # installing without freetype no ttf, sorry!
+  # You need to install a static library version of the freetype2 software
+  # If you need truetype support in renderPM
+  # You may need to edit setup.cfg (win32)
+  # or edit this file to access the library if it is installed
+  ################################################
+  Downloading standard T1 font curves
+  Finished download of standard T1 font curves
+  The _glyphlist module already exists
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib.win-amd64-3.10
+  creating build\lib.win-amd64-3.10\reportlab
+  copying src\reportlab\rl_config.py -> build\lib.win-amd64-3.10\reportlab
+  copying src\reportlab\rl_settings.py -> build\lib.win-amd64-3.10\reportlab
+  copying src\reportlab\__init__.py -> build\lib.win-amd64-3.10\reportlab
+  creating build\lib.win-amd64-3.10\reportlab\graphics
+  creating build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\areas.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\axes.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\barcharts.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\dotbox.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\doughnut.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\legends.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\linecharts.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\lineplots.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\piecharts.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\slidebox.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\spider.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\textlabels.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\utils.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\utils3d.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  copying src\reportlab\graphics\charts\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+  creating build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\bubble.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\clustered_bar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\clustered_column.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\excelcolors.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\exploded_pie.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\filled_radar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\linechart_with_markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\line_chart.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\radar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\runall.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\scatter.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\scatter_lines.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\scatter_lines_markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\simple_pie.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\stacked_bar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\stacked_column.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  copying src\reportlab\graphics\samples\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+  creating build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\eventcal.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\flags.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\grids.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\signsandsymbols.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\table.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  copying src\reportlab\graphics\widgets\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+  creating build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\code128.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\code39.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\code93.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\common.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\dmtx.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\eanbc.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\ecc200datamatrix.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\fourstate.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\lto.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\qr.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\qrencoder.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\test.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\usps.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\usps4s.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\widgets.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\barcode\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+  copying src\reportlab\graphics\renderbase.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\renderPDF.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\renderPM.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\renderPS.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\renderSVG.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\shapes.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\testdrawings.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\testshapes.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\widgetbase.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  copying src\reportlab\graphics\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics
+  creating build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\abag.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\arciv.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\attrmap.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\boxstuff.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\codecharts.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\colors.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\corp.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\enums.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\extformat.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\fontfinder.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\fonts.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\formatters.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\geomutils.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\logger.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\normalDate.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\pagesizes.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\pdfencrypt.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\PyFontify.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\pygments2xpre.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\randomtext.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\rltempfile.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\rl_accel.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\rl_safe_eval.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\rparsexml.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\sequencer.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\styles.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\testutils.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\textsplit.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\units.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\utils.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\validators.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\yaml.py -> build\lib.win-amd64-3.10\reportlab\lib
+  copying src\reportlab\lib\__init__.py -> build\lib.win-amd64-3.10\reportlab\lib
+  creating build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\acroform.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\cidfonts.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\pdfdoc.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\pdfform.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\pdfmetrics.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\pdfpattern.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\pdfutils.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\rl_codecs.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\ttfonts.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_can_cmap_data.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_cidfontdata.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_macexpert.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_macroman.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_pdfdoc.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_standard.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_symbol.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_winansi.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_enc_zapfdingbats.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_courier.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_courierbold.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_courierboldoblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_courieroblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_helvetica.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_helveticabold.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_helveticaboldoblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_helveticaoblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_symbol.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_timesbold.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_timesbolditalic.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_timesitalic.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_timesroman.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_fontdata_widths_zapfdingbats.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\_glyphlist.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  copying src\reportlab\pdfbase\__init__.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+  creating build\lib.win-amd64-3.10\reportlab\pdfgen
+  copying src\reportlab\pdfgen\canvas.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+  copying src\reportlab\pdfgen\pathobject.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+  copying src\reportlab\pdfgen\pdfgeom.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+  copying src\reportlab\pdfgen\pdfimages.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+  copying src\reportlab\pdfgen\textobject.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+  copying src\reportlab\pdfgen\__init__.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+  creating build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\doctemplate.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\figures.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\flowables.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\frames.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\multicol.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\para.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\paragraph.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\paraparser.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\tableofcontents.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\tables.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\xpreformatted.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  copying src\reportlab\platypus\__init__.py -> build\lib.win-amd64-3.10\reportlab\platypus
+  creating build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\00readme.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\bitstream-vera-license.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGarden-changelog.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGarden-copying-gpl.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGarden-copying.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGarden-readme.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGarden.sfd -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGardenMK.afm -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\DarkGardenMK.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\Vera.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\VeraBd.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\VeraBI.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\VeraIt.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_abi____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_ab_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_ai_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_a______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\cobo____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\cob_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\com_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\coo_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_ebi____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_eb_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_ei_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\_er_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\sy______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\zd______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\zx______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\zy______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\callig15.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\fonts\callig15.afm -> build\lib.win-amd64-3.10\reportlab\fonts
+  copying src\reportlab\lib\hyphen.mashed -> build\lib.win-amd64-3.10\reportlab\lib
+  running build_ext
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "C:\Users\Dev\AppData\Local\Temp\pip-install-mvy3wtrl\reportlab_b8e5146290c44514bffc1728eb385d63\setup.py", line 652, in <module>
+      main()
+    File "C:\Users\Dev\AppData\Local\Temp\pip-install-mvy3wtrl\reportlab_b8e5146290c44514bffc1728eb385d63\setup.py", line 600, in main
+      setup(
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\__init__.py", line 155, in setup
+      return distutils.core.setup(**attrs)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\core.py", line 148, in setup
+      return run_commands(dist)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\core.py", line 163, in run_commands
+      dist.run_commands()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 967, in run_commands
+      self.run_command(cmd)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+      cmd_obj.run()
+    File "J:\Coding\odoo\venv\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+      self.run_command('build')
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+      cmd_obj.run()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+      cmd_obj.run()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\build_ext.py", line 79, in run
+      _build_ext.run(self)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 339, in run
+      self.build_extensions()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 448, in build_extensions
+      self._build_extensions_serial()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 473, in _build_extensions_serial
+      self.build_extension(ext)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\build_ext.py", line 202, in build_extension
+      _build_ext.build_extension(self, ext)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 528, in build_extension
+      objects = self.compiler.compile(sources,
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 327, in compile
+      self.initialize()
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 224, in initialize
+      vc_env = _get_vc_env(plat_spec)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\msvc.py", line 316, in msvc14_get_vc_env
+      return _msvc14_get_vc_env(plat_spec)
+    File "J:\Coding\odoo\venv\lib\site-packages\setuptools\msvc.py", line 270, in _msvc14_get_vc_env
+      raise distutils.errors.DistutilsPlatformError(
+  setuptools._distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+  ----------------------------------------
+  ERROR: Failed building wheel for reportlab
+Failed to build reportlab
+Installing collected packages: reportlab
+    Running setup.py install for reportlab: started
+    Running setup.py install for reportlab: finished with status 'error'
+    ERROR: Command errored out with exit status 1:
+     command: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-mvy3wtrl\\reportlab_b8e5146290c44514bffc1728eb385d63\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-mvy3wtrl\\reportlab_b8e5146290c44514bffc1728eb385d63\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Dev\AppData\Local\Temp\pip-record-ltoc536m\install-record.txt' --single-version-externally-managed --compile --install-headers 'J:\Coding\odoo\venv\include\site\python3.10\reportlab'
+         cwd: C:\Users\Dev\AppData\Local\Temp\pip-install-mvy3wtrl\reportlab_b8e5146290c44514bffc1728eb385d63\
+    Complete output (276 lines):
+    ================================================
+    Attempting build of _rl_accel & pyHnj
+    extensions from 'src\\rl_addons\\rl_accel'
+    ================================================
+    ================================================
+    Attempting build of _renderPM
+    extensions from 'src\\rl_addons\\renderPM'
+    ================================================
+    will use package libart 2.3.21
+    # freetype lib 'c:\\ux\\xb33\\libs\\amd64\\freetype.lib' not found
+    # installing without freetype no ttf, sorry!
+    # You need to install a static library version of the freetype2 software
+    # If you need truetype support in renderPM
+    # You may need to edit setup.cfg (win32)
+    # or edit this file to access the library if it is installed
+    ################################################
+    Downloading standard T1 font curves
+    Finished download of standard T1 font curves
+    The _glyphlist module already exists
+    running install
+    J:\Coding\odoo\venv\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+      warnings.warn(
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.10
+    creating build\lib.win-amd64-3.10\reportlab
+    copying src\reportlab\rl_config.py -> build\lib.win-amd64-3.10\reportlab
+    copying src\reportlab\rl_settings.py -> build\lib.win-amd64-3.10\reportlab
+    copying src\reportlab\__init__.py -> build\lib.win-amd64-3.10\reportlab
+    creating build\lib.win-amd64-3.10\reportlab\graphics
+    creating build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\areas.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\axes.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\barcharts.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\dotbox.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\doughnut.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\legends.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\linecharts.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\lineplots.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\piecharts.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\slidebox.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\spider.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\textlabels.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\utils.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\utils3d.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    copying src\reportlab\graphics\charts\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\charts
+    creating build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\bubble.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\clustered_bar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\clustered_column.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\excelcolors.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\exploded_pie.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\filled_radar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\linechart_with_markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\line_chart.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\radar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\runall.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\scatter.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\scatter_lines.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\scatter_lines_markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\simple_pie.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\stacked_bar.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\stacked_column.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    copying src\reportlab\graphics\samples\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\samples
+    creating build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\eventcal.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\flags.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\grids.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\markers.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\signsandsymbols.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\table.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    copying src\reportlab\graphics\widgets\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\widgets
+    creating build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\code128.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\code39.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\code93.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\common.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\dmtx.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\eanbc.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\ecc200datamatrix.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\fourstate.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\lto.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\qr.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\qrencoder.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\test.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\usps.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\usps4s.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\widgets.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\barcode\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics\barcode
+    copying src\reportlab\graphics\renderbase.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\renderPDF.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\renderPM.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\renderPS.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\renderSVG.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\shapes.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\testdrawings.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\testshapes.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\widgetbase.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    copying src\reportlab\graphics\__init__.py -> build\lib.win-amd64-3.10\reportlab\graphics
+    creating build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\abag.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\arciv.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\attrmap.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\boxstuff.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\codecharts.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\colors.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\corp.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\enums.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\extformat.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\fontfinder.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\fonts.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\formatters.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\geomutils.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\logger.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\normalDate.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\pagesizes.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\pdfencrypt.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\PyFontify.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\pygments2xpre.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\randomtext.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\rltempfile.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\rl_accel.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\rl_safe_eval.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\rparsexml.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\sequencer.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\styles.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\testutils.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\textsplit.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\units.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\utils.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\validators.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\yaml.py -> build\lib.win-amd64-3.10\reportlab\lib
+    copying src\reportlab\lib\__init__.py -> build\lib.win-amd64-3.10\reportlab\lib
+    creating build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\acroform.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\cidfonts.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\pdfdoc.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\pdfform.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\pdfmetrics.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\pdfpattern.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\pdfutils.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\rl_codecs.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\ttfonts.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_can_cmap_data.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_cidfontdata.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_macexpert.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_macroman.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_pdfdoc.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_standard.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_symbol.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_winansi.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_enc_zapfdingbats.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_courier.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_courierbold.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_courierboldoblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_courieroblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_helvetica.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_helveticabold.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_helveticaboldoblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_helveticaoblique.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_symbol.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_timesbold.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_timesbolditalic.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_timesitalic.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_timesroman.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_fontdata_widths_zapfdingbats.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\_glyphlist.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    copying src\reportlab\pdfbase\__init__.py -> build\lib.win-amd64-3.10\reportlab\pdfbase
+    creating build\lib.win-amd64-3.10\reportlab\pdfgen
+    copying src\reportlab\pdfgen\canvas.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+    copying src\reportlab\pdfgen\pathobject.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+    copying src\reportlab\pdfgen\pdfgeom.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+    copying src\reportlab\pdfgen\pdfimages.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+    copying src\reportlab\pdfgen\textobject.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+    copying src\reportlab\pdfgen\__init__.py -> build\lib.win-amd64-3.10\reportlab\pdfgen
+    creating build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\doctemplate.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\figures.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\flowables.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\frames.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\multicol.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\para.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\paragraph.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\paraparser.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\tableofcontents.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\tables.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\xpreformatted.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    copying src\reportlab\platypus\__init__.py -> build\lib.win-amd64-3.10\reportlab\platypus
+    creating build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\00readme.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\bitstream-vera-license.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGarden-changelog.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGarden-copying-gpl.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGarden-copying.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGarden-readme.txt -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGarden.sfd -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGardenMK.afm -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\DarkGardenMK.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\Vera.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\VeraBd.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\VeraBI.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\VeraIt.ttf -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_abi____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_ab_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_ai_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_a______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\cobo____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\cob_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\com_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\coo_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_ebi____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_eb_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_ei_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\_er_____.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\sy______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\zd______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\zx______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\zy______.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\callig15.pfb -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\fonts\callig15.afm -> build\lib.win-amd64-3.10\reportlab\fonts
+    copying src\reportlab\lib\hyphen.mashed -> build\lib.win-amd64-3.10\reportlab\lib
+    running build_ext
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\Dev\AppData\Local\Temp\pip-install-mvy3wtrl\reportlab_b8e5146290c44514bffc1728eb385d63\setup.py", line 652, in <module>
+        main()
+      File "C:\Users\Dev\AppData\Local\Temp\pip-install-mvy3wtrl\reportlab_b8e5146290c44514bffc1728eb385d63\setup.py", line 600, in main
+        setup(
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\__init__.py", line 155, in setup
+        return distutils.core.setup(**attrs)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\core.py", line 148, in setup
+        return run_commands(dist)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\core.py", line 163, in run_commands
+        dist.run_commands()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 967, in run_commands
+        self.run_command(cmd)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+        cmd_obj.run()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\install.py", line 68, in run
+        return orig.install.run(self)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\install.py", line 662, in run
+        self.run_command('build')
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+        cmd_obj.run()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\dist.py", line 986, in run_command
+        cmd_obj.run()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\build_ext.py", line 79, in run
+        _build_ext.run(self)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 339, in run
+        self.build_extensions()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 448, in build_extensions
+        self._build_extensions_serial()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 473, in _build_extensions_serial
+        self.build_extension(ext)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\command\build_ext.py", line 202, in build_extension
+        _build_ext.build_extension(self, ext)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\command\build_ext.py", line 528, in build_extension
+        objects = self.compiler.compile(sources,
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 327, in compile
+        self.initialize()
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\_distutils\_msvccompiler.py", line 224, in initialize
+        vc_env = _get_vc_env(plat_spec)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\msvc.py", line 316, in msvc14_get_vc_env
+        return _msvc14_get_vc_env(plat_spec)
+      File "J:\Coding\odoo\venv\lib\site-packages\setuptools\msvc.py", line 270, in _msvc14_get_vc_env
+        raise distutils.errors.DistutilsPlatformError(
+    setuptools._distutils.errors.DistutilsPlatformError: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'J:\Coding\odoo\venv\Scripts\python.exe' -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-mvy3wtrl\\reportlab_b8e5146290c44514bffc1728eb385d63\\setup.py'"'"'; __file__='"'"'C:\\Users\\Dev\\AppData\\Local\\Temp\\pip-install-mvy3wtrl\\reportlab_b8e5146290c44514bffc1728eb385d63\\setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\Dev\AppData\Local\Temp\pip-record-ltoc536m\install-record.txt' --single-version-externally-managed --compile --install-headers 'J:\Coding\odoo\venv\include\site\python3.10\reportlab' Check the logs for full command output.
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+couldn't install reportlab==3.5.59
+installing this package = requests==2.25.1
+Requirement already satisfied: requests==2.25.1 in j:\coding\odoo\venv\lib\site-packages (2.25.1)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in j:\coding\odoo\venv\lib\site-packages (from requests==2.25.1) (1.26.5)
+Requirement already satisfied: certifi>=2017.4.17 in j:\coding\odoo\venv\lib\site-packages (from requests==2.25.1) (2022.9.24)
+Requirement already satisfied: idna<3,>=2.5 in j:\coding\odoo\venv\lib\site-packages (from requests==2.25.1) (2.8)
+Requirement already satisfied: chardet<5,>=3.0.2 in j:\coding\odoo\venv\lib\site-packages (from requests==2.25.1) (3.0.4)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = Bullseye = 2.25.1
+ERROR: Invalid requirement: 'Bullseye = 2.25.1'
+Hint: = is not a valid operator. Did you mean == ?
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+couldn't install Bullseye = 2.25.1
+installing this package = urllib3==1.26.5
+Requirement already satisfied: urllib3==1.26.5 in j:\coding\odoo\venv\lib\site-packages (1.26.5)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = vobject==0.9.6.1
+Requirement already satisfied: vobject==0.9.6.1 in j:\coding\odoo\venv\lib\site-packages (0.9.6.1)
+Requirement already satisfied: python-dateutil>=2.4.0 in j:\coding\odoo\venv\lib\site-packages (from vobject==0.9.6.1) (2.7.3)
+Requirement already satisfied: six>=1.5 in j:\coding\odoo\venv\lib\site-packages (from python-dateutil>=2.4.0->vobject==0.9.6.1) (1.16.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = Werkzeug==2.0.2
+Requirement already satisfied: Werkzeug==2.0.2 in j:\coding\odoo\venv\lib\site-packages (2.0.2)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = xlrd==1.2.0
+Requirement already satisfied: xlrd==1.2.0 in j:\coding\odoo\venv\lib\site-packages (1.2.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = XlsxWriter==1.1.2
+Requirement already satisfied: XlsxWriter==1.1.2 in j:\coding\odoo\venv\lib\site-packages (1.1.2)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = xlwt==1.3.*
+Requirement already satisfied: xlwt==1.3.* in j:\coding\odoo\venv\lib\site-packages (1.3.0)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = zeep==3.4.0
+Requirement already satisfied: zeep==3.4.0 in j:\coding\odoo\venv\lib\site-packages (3.4.0)
+Requirement already satisfied: pytz in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (2019.3)
+Requirement already satisfied: cached-property>=1.3.0 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (1.5.2)
+Requirement already satisfied: isodate>=0.5.4 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (0.6.1)
+Requirement already satisfied: defusedxml>=0.4.1 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (0.7.1)
+Requirement already satisfied: requests-toolbelt>=0.7.1 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (0.10.0)
+Requirement already satisfied: appdirs>=1.4.0 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (1.4.4)
+Requirement already satisfied: requests>=2.7.0 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (2.25.1)
+Requirement already satisfied: six>=1.9.0 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (1.16.0)
+Requirement already satisfied: lxml>=3.1.0 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (4.6.5)
+Requirement already satisfied: attrs>=17.2.0 in j:\coding\odoo\venv\lib\site-packages (from zeep==3.4.0) (22.1.0)
+Requirement already satisfied: chardet<5,>=3.0.2 in j:\coding\odoo\venv\lib\site-packages (from requests>=2.7.0->zeep==3.4.0) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in j:\coding\odoo\venv\lib\site-packages (from requests>=2.7.0->zeep==3.4.0) (2022.9.24)
+Requirement already satisfied: idna<3,>=2.5 in j:\coding\odoo\venv\lib\site-packages (from requests>=2.7.0->zeep==3.4.0) (2.8)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in j:\coding\odoo\venv\lib\site-packages (from requests>=2.7.0->zeep==3.4.0) (1.26.5)
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+installing this package = 
+ERROR: Invalid requirement: ''
+WARNING: You are using pip version 21.3.1; however, version 22.3 is available.
+You should consider upgrading via the 'J:\Coding\odoo\venv\Scripts\python.exe -m pip install --upgrade pip' command.
+couldn't install 
+['cryptography==2.6.1', 'libsass==0.18.0', 'psutil==5.6.7', 'psycopg2==2.8.6', 'python-ldap==3.4.0', 'reportlab==3.5.59', 'Bullseye = 2.25.1', '']
+
+Process finished with exit code 0
