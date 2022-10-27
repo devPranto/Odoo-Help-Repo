@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_om_hospital_tree">
+        <field name="name">hospital.patient.tree</field>
+        <field name="model">om.hospital</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" string="Patient Name"/>
+                <field name="Age"/>
+                <field name="Gender"/>
+                <field name="Medical_History"/>
+                <field name="bill_paid" string="Paid"/>
+            </tree>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="view_om_hospital_form">
+        <field name="name">hospital.patient.form</field>
+        <field name="model">om.hospital</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="Age"/>
+                            <field name="Gender"/>
+                            <field name="active" invisible="1"/>
+                        </group>
+                        <group>
+                            <field name="Medical_History"/>
+                            <field name="bill_paid"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_om_hospital_search">
+        <field name="name">hospital.patient.search</field>
+        <field name="model">om.hospital</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="Age" string="Patient Age" filter_domain="['|',
+                ('Age', '=', self),('name','ilike',self) ]"/>
+                <field name="name" string="Patient Name"/>
+                <field name="Gender" string="gender"/>
+                <!--                <field name="Medical_History"/>-->
+                <field name="bill_paid" string="Paid"/>
+                <filter name="Male filter" string="Male" domain="[('Gender','=','male')]"/>
+                <filter name="female filter" string="Female" domain="[('Gender','=','female')]"/>
+                <separator/>
+                <filter name="Kid filter" string="Kid" domain="[('Age','&lt;',10)]"/>
+                <filter name="bill_paid " string="Bill Paid" domain="[('bill_paid','=',True)]"/>
+                <filter name="active" string="Inactive" domain="[('active','=',False)]"/>
+                <group expand="2" string="group by">
+                    <filter string="Gender filter" name="Gender" context="{'group_by':'Gender'}"/>
+                </group>
+                <group expand="0" string="group by">
+                    <filter string="Bill Paid " name="bill_paid" context="{'group_by':'bill_paid'}"/>
+                </group>
+                 <searchpanel >
+                        <field name="Gender"  enable_counters="1" />
+                    </searchpanel>
+            </search>
+        </field>
+    </record>
+    <record id="action_hospital_patient" model="ir.actions.act_window">
+        <field name="name">Patient</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">om.hospital</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_patient"
+              name="Patient"
+              action="action_hospital_patient"
+              parent="menu_patient_master"
+              sequence="0"/>
+
+</odoo>
